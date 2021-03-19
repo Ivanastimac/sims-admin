@@ -1,0 +1,18 @@
+.mat-list-item {
+    color: #7f678a;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+.add {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.mat-raised-button {
+    background-color: #8e44ad;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    color: white;
+}
+

@@ -1,0 +1,12 @@
+.mat-success {
+    background-color: blueviolet;
+    color: white;
+}
+
+p {
+    color: #8e44ad;
+}
+
+.mat-dialog-actions {
+    justify-content: flex-end;
+}

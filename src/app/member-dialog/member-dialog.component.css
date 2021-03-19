@@ -1,0 +1,22 @@
+.mat-success {
+    background-color: blueviolet;
+    color: white;
+}
+
+.addFamily {
+    display: flex;
+    justify-content: initial;
+}
+
+.addButton {
+    padding-top: 5%;
+    padding-left: 2%;
+}
+
+p {
+    color: #8e44ad;
+}
+
+.mat-dialog-actions {
+    justify-content: flex-end;
+}

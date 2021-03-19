@@ -1,0 +1,25 @@
+.all {
+    margin-left: 180px;
+}
+
+table {
+    width: 100%;
+  }
+
+.mat-success {
+    background-color: #8e44ad;
+    color: white;
+}
+
+.mat-icon {
+    font-weight: bolder;
+}
+
+.addButton {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.mat-header-cell {
+    color: #8e44ad;
+}

@@ -1,0 +1,5 @@
+<mat-grid-list cols = "3" rowHeight = "2:1.2">
+     <mat-grid-tile *ngFor = "let pet of allowedPets" (click) = "openDialog(pet)">
+         <img src = "{{ pet.picture }}" alt = "dog">
+    </mat-grid-tile>
+  </mat-grid-list>

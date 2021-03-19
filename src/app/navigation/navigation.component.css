@@ -1,0 +1,16 @@
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 180px;
+  background-color: blueviolet;
+  padding-top: 200px;
+}
+
+.mat-list-item {
+  font-size: 20px;
+  padding: 10px 10px 10px 15px;
+  color: white;
+  font-family: cursive;
+}

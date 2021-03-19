@@ -1,0 +1,19 @@
+<div>
+
+    <mat-list>
+        <mat-list-item> Name: {{ pet.name }} </mat-list-item>
+        <mat-divider></mat-divider>
+        <mat-list-item> Age: {{ pet.age }} </mat-list-item>
+        <mat-divider></mat-divider>
+        <mat-list-item> Breed: {{ pet.breed }} </mat-list-item>
+        <mat-divider></mat-divider>
+        <mat-list-item> Location: {{ pet.location }} </mat-list-item>
+    </mat-list>
+
+    <div class = "add">
+        <button mat-raised-button (click) = "adopt()">
+            Add to family
+        </button>
+    </div>
+
+</div>

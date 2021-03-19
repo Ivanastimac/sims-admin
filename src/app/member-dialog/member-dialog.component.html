@@ -1,0 +1,56 @@
+<div mat-dialog-content>
+  <p>Update this member's details:</p>
+    <mat-form-field>
+        <p>Name:</p>
+        <input matInput [(ngModel)] = "dialogMember.name">
+   </mat-form-field> 
+   <mat-form-field>
+        <p>Surname:</p>
+        <input matInput [(ngModel)] = "dialogMember.surname">
+    </mat-form-field>
+    <mat-form-field>
+        <p>Birthday:</p>
+        <input matInput [(ngModel)] = "dialogMember.birthday">
+    </mat-form-field>
+    <mat-form-field>
+        <p>School:</p>
+        <input matInput [(ngModel)] = "dialogMember.school">
+    </mat-form-field>
+    <mat-form-field>
+      <p>Work:</p>
+      <mat-select [(ngModel)] = "dialogMember.work">
+        <mat-option [value] = "true">
+          Yes
+        </mat-option>
+        <mat-option [value] = "false">
+          No
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+    <mat-form-field>
+        <p>Status:</p>
+        <input matInput [(ngModel)] = "dialogMember.status">
+  </mat-form-field>
+  <span class = "addFamily">
+  <mat-form-field>
+    <p>Family:</p>
+    <mat-select [(ngModel)] = "dialogMember.family">
+      <mat-option *ngFor = "let family of families" [value] = "family">
+        {{ family }}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+  <div class = "addButton">
+    <button mat-mini-fab color = "success" (click) = "openDialogAdd()">
+       <mat-icon>+</mat-icon>
+    </button>
+  </div>
+</span>
+</div>
+<div mat-dialog-actions>
+  <button mat-mini-fab class = "deleteButton" color = "success" (click) = "openDialogDelete()">
+    <mat-icon>delete</mat-icon>
+  </button>
+  <button mat-button (click) = "exit()"> Cancel </button>
+  <button mat-button (click) = "save()"> Save </button>
+</div>

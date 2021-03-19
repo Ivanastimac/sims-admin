@@ -1,0 +1,10 @@
+p {
+    color: #8e44ad;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+}

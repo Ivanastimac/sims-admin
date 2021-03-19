@@ -1,0 +1,36 @@
+.title {
+    font-size: 50px;
+    margin-left: 200px;
+    color: #8e44ad;
+    font-size: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h2 {
+    color: #8e44ad;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 110%;
+    margin-left: 190px;
+}
+
+.image {
+    transform: scale(0.3, 0.3);
+}
+
+.dropdown {
+    font-size: medium;
+    padding-left: 20px;
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+}
+
+.selected {
+    color:#8e44ad;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    padding-left: 20px;
+}

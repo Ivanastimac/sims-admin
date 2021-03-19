@@ -1,0 +1,39 @@
+<mat-toolbar>
+
+    <mat-toolbar-row class = "first">
+    
+        <span class = "title">
+            Sims Admin
+        </span>  
+    
+        <span class = "image">
+          <img mat-card-image src = "/../../assets/resources/asseco.png" alt = "logo"/>
+        </span>
+    
+    </mat-toolbar-row>
+    
+    <mat-toolbar-row>
+    
+        <h2>
+          Choose family member:
+        </h2>
+
+        <div class = "dropdown">
+         
+        <mat-form-field>
+            <mat-select [(ngModel)] = "selectedM" (ngModelChange) = "chosenMemberChanged()">
+              <mat-option *ngFor = "let member of members" [value] = "member">
+                {{member.name}} {{member.surname}}
+              </mat-option>
+            </mat-select>
+        </mat-form-field>
+         
+        <span *ngIf = "selectedM" class = "selected">
+           {{selectedM.name}} {{selectedM.surname}}
+        </span>
+
+      </div>
+    
+      </mat-toolbar-row>
+     
+    </mat-toolbar>
