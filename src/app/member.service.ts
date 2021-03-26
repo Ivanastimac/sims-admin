@@ -16,10 +16,10 @@ import { AllowedPet } from './allowedPet';
 
 export class MemberService {
 
-  private membersUrl = 'https://my-json-server.typicode.com/jbuzimkic/simsDemo/familymembers';
-  private housesUrl = 'https://my-json-server.typicode.com/jbuzimkic/simsDemo/house';
-  private ownedPetsUrl = 'https://my-json-server.typicode.com/jbuzimkic/simsDemo/ownedpets';
-  private allowedPetsUrl = 'https://my-json-server.typicode.com/jbuzimkic/simsDemo/allowedpets';
+  private membersUrl = 'https://my-json-server.typicode.com/Ivanastimac/simsDemo/familymembers';
+  private housesUrl = 'https://my-json-server.typicode.com/Ivanastimac/simsDemo/house';
+  private ownedPetsUrl = 'https://my-json-server.typicode.com/Ivanastimac/simsDemo/ownedpets';
+  private allowedPetsUrl = 'https://my-json-server.typicode.com/Ivanastimac/simsDemo/allowedpets';
   members: Member[];
   houses: House[];
   emptyMember: Member = { name: '', id: -1, surname: '', birthday: '', work: false, school: '', houseId: -1, familyId: -1, status: '', reasonOfRemoval: '', years: '', family: '' }
